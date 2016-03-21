@@ -1,0 +1,30 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+
+#header {
+    background: #B43531;
+}
+#top-menu { 
+    background: #751310;
+}
+#main-menu li a:hover {
+    background: #DA6663;
+}
+/*
+#header {
+    background: #DA6272;
+}
+#top-menu {
+    background: #C7243A;
+}
+#main-menu li a:hover {
+    background: #ECACB5;
+}
+*/
+
+a, a:link, a:visited{
+    color: #d92e47;
+}
+a:hover, a:active{
+    color: #ed9aa6;
+}
